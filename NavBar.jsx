@@ -20,7 +20,7 @@ function NavBar() {
         <img
           src="https://cdns.apptivo.com/res/v1.1/war/images/apptivo_clear_logo_106x35.png"
           alt="Apptivo Logo"
-          style={{ height: "28px" }} // Adjust logo height
+          style={{ height: "28px" }} 
         />
         <div
           style={{ marginLeft: "auto", display: "flex", alignItems: "center" }}
@@ -29,7 +29,7 @@ function NavBar() {
             <IconButton
               key={index}
               title={label}
-              className="icon-button" // Add class for hover effect
+              className="icon-button" 
               style={{
                 color: "white",
                 padding: "0 6px",
